@@ -1,3 +1,0 @@
-
-
-ytAPIKey = "dummy value"
