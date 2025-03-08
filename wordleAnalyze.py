@@ -4,7 +4,7 @@ import json
 from urllib.parse import urlparse, parse_qs
 import requests
 import isodate  # For parsing ISO 8601 duration format
-from wa-secrets import *
+from waSecrets import *
 
 # You'll need a simple API key for metadata like duration
 API_KEY = ytAPIKey  # Replace with your YouTube API key
