@@ -4,9 +4,10 @@ import json
 from urllib.parse import urlparse, parse_qs
 import requests
 import isodate  # For parsing ISO 8601 duration format
+from secrets.py import ytAPIKey
 
 # You'll need a simple API key for metadata like duration
-API_KEY = "YOUR_API_KEY"  # Replace with your YouTube API key
+API_KEY = "YOUR_API_KEY"  # Sets API_KEY to YouTube API key from secrets.py
 
 def get_video_id(youtube_url):
     """Extract the video ID from a YouTube URL."""
