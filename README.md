@@ -7,5 +7,6 @@
 
 
 #Custom Configs: 
-#   = update secrets.py with:
-#       - Google (Youtube API Client Key)
+#   - cp waSecrets.example.py waSecrets.py
+#   = update waSecrets.py with:
+#       - Google (Youtube) API Client Key; ytAPIKey = ""
