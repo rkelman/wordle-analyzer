@@ -1,3 +1,3 @@
 
 
-ytAPIKey = "You tube API Key"
+ytAPIKey = "dummy value"
