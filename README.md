@@ -3,6 +3,8 @@
 #prereq's:
 #    - must have loaded youtube libraries to access google's API libraries using: 
 #    > pip install youtube-transcript-api requests isodate
+#    > pip install google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
+
 
 #Custom Configs: 
 #   = update secrets.py with:
